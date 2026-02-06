@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+.env.*.local
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+
+# AI Models (large files)
+*.pt
+*.bin
+*.safetensors
+
+# MongoDB data (if local)
+data/
